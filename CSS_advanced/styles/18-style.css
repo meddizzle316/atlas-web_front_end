@@ -125,6 +125,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+.navbar-menu {
+    float: right;
+
+}
+
 .nav {
     margin: 0 0 0 0;
     padding: 0;
@@ -148,11 +153,6 @@ h1, h2, h3, h4, h5, h6 {
     &.nav-link:hover {
         color: var(--nav-item-link-hover);
     }
-}
-
-
-.navbar-menu {
-    float: right;
 }
 
 
