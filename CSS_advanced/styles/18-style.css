@@ -144,8 +144,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav .nav-link {
     display: block;
-    padding-top: 50%;
-    padding-bottom: 50%;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .nav .nav-item {
