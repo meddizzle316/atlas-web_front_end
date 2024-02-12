@@ -124,13 +124,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
 }
 
-.footer {
-    padding: var(--footer-padding);
-}
-
-.navbar-menu {
-    float: right;
-}
 
 .nav {
     margin: 0 0 0 0;
@@ -156,3 +149,16 @@ h1, h2, h3, h4, h5, h6 {
         color: var(--nav-item-link-hover);
     }
 }
+
+
+.navbar-menu {
+    float: right;
+}
+
+
+.footer {
+    padding: var(--footer-padding);
+}
+
+
+
