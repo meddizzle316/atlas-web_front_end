@@ -181,16 +181,17 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--text-color);
 }
 
-.row {
+/* .row {
     display: grid;
     clear: both
-}
+} */
 
 .row::after {
     /* display: table-row; */
     content: "";
     display: table;
-    width: 100%;    
+    width: 100%; 
+    clear: both;   
 }
 
 
