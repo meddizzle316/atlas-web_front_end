@@ -182,9 +182,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .row::after {
-    display: inline-block;
+    display: table-row;
 }
 
+/* td:empty:after {
+    content: "\00a0"
+} */
 
 ul.row {
     margin: 0;
