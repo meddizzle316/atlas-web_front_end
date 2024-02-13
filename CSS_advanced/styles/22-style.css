@@ -1,5 +1,13 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css);
 
+
+[data-section-theme=“dark”] 
+{
+    --text-color: var(--color-white);
+    --section-title-color: var(--color-white);
+    background: var(--color-black);
+}
+
 :root {
     --color-primary: #d73953;
     --color-black: #090909;
@@ -158,12 +166,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: var(--nav-item-margin);
 }
 
-[data-section-theme=“dark”] 
-{
-    --text-color: var(--color-white);
-    --section-title-color: var(--color-white);
-    background: var(--color-black);
-}
+
 
 
 [class^='col-']{
